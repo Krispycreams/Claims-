@@ -21,11 +21,12 @@ Three configuration values disagree with the contract that governs them.
 
 Exposure across 2,400 claims:
 
-| Defect | Claims | Exposure |
-|---|---|---|
-| Timely filing loaded at 90 | _fill from 03 §4a_ | _$_ |
-| LTSS priced at 80% | _fill from 03 §4b_ | _$_ |
-| Transportation auth exemption | _fill from 03 §4c_ | _$_ |
+| Defect | Claims | Exposure | % of total |
+|---|---|---|---|
+| Timely filing loaded at 90 days against a 95-day contract | 51 | $39,571.50 | 48.0% |
+| LTSS priced at 80% against a contracted 100% | 207 | $33,369.65 | 40.5% |
+| Transportation auth exemption never loaded | 195 | $9,459.96 | 11.5% |
+| **Total** | **453** | **$82,401.11** | **100%** |
 
 > Run section 4d of `03_analysis_and_tests.sql` for all three on one line.
 
